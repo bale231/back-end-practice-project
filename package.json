@@ -1,0 +1,40 @@
+{
+  "name": "back-end-project",
+  "version": "0.0.1",
+  "description": "Practice with Node.js, Sequelize and ExpressJS",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bale231/back-end-practice-project.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Back-End",
+    "ExpressJS",
+    "Axios",
+    "Practice",
+    "Exercise"
+  ],
+  "author": "Luigi Balestrucci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bale231/back-end-practice-project/issues"
+  },
+  "homepage": "https://github.com/bale231/back-end-practice-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "express-async-errors": "^3.1.1",
+    "nodemon": "^3.1.4"
+  }
+}
